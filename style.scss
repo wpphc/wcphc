@@ -256,7 +256,7 @@ body:not(.home) {
         position: absolute;
         left: calc(50% - 10rem);
         top: 100%;
-        width: 20rem;
+        width: 220px;
 
         &:before {
           border: .6rem solid transparent;
@@ -278,7 +278,7 @@ body:not(.home) {
           line-height: 1.1;
           padding: 1rem 1.5rem;
           text-align: left;
-          width: 230px;
+          width: 220px;
         }
       }
 

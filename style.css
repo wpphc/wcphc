@@ -226,7 +226,7 @@ body:not(.home) #main {
     position: absolute;
     left: calc(50% - 10rem);
     top: 100%;
-    width: 20rem;
+    width: 220px;
   }
   body .site-navigation ul ul:before {
     border: .6rem solid transparent;
@@ -247,7 +247,7 @@ body:not(.home) #main {
     line-height: 1.1;
     padding: 1rem 1.5rem;
     text-align: left;
-    width: 230px;
+    width: 220px;
   }
   body .site-navigation .twitter-link {
     display: block;
