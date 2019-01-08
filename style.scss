@@ -2366,22 +2366,3 @@ body.page-slug-schedule #primary {
     }
   }
 }
-
-@media screen and (min-width:900px) {}
-
-@media screen and (min-width:900px) {
-  #tix-attendees li {
-    float: none;
-    width: 50%;
-    margin-bottom: 20px;
-    height: auto;
-    display: inline-block;
-  }
-  
-  #tix-attendees .avatar {
-    float: none;
-    width: 192px;
-    height: 192px;
-    margin-bottom: 0;
-  }
-}

@@ -1963,20 +1963,3 @@ body.page-slug-schedule #primary {
 .wcorg-sponsors > div:nth-child(5) h3:after {
   background-color: #10193f;
 }
-
-@media screen and (min-width: 900px) {
-  #tix-attendees li {
-    float: none;
-    width: 50%;
-    margin-bottom: 20px;
-    height: auto;
-    display: inline-block;
-  }
-
-  #tix-attendees .avatar {
-    float: none;
-    width: 192px;
-    height: 192px;
-    margin-bottom: 0;
-  }
-}
