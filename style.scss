@@ -1,15 +1,18 @@
 html {
-  font-size: 62.0%;
+  font-size: 62.5%;
 }
 
 body {
   margin: 0;
+
   * {
     box-sizing: border-box;
   }
+
   .widget {
     margin: 0;
   }
+
   >div {
     color: rgba(17, 17, 17, 1);
     font-family: 'freight-display-pro', 'Playfair Display', serif;
@@ -18,9 +21,11 @@ body {
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
   }
+
   a {
     color: rgba(34, 132, 210, 1);
     text-decoration: none;
+
     &:visited {
       color: rgba(34, 132, 210, 1);
       text-decoration: none;
@@ -47,6 +52,7 @@ body {
     font-weight: 300;
     margin-bottom: 1rem;
   }
+
   h3 {
     font-size: 4rem;
     font-weight: 300;
@@ -70,6 +76,7 @@ body {
   font-size: 1.9rem;
   letter-spacing: .15rem;
   text-transform: uppercase;
+
   &.seperated:after {
     background: rgba(255, 255, 255, 1);
     content: "";
@@ -135,6 +142,7 @@ body {
 }
 
 .site-header {
+
   h2.site-description,
   .skip-link {
     display: none;
@@ -148,6 +156,7 @@ body {
   nav.site-navigation {
     margin-top: 10px !important;
   }
+
   &.home nav.site-navigation {
     margin-top: 40px !important;
   }
@@ -161,28 +170,34 @@ body:not(.home) {
     height: .2rem;
     background: rgba(238, 238, 238, 1);
   }
+
   #main {
     padding-top: 8rem;
   }
 }
 
 @media (min-width: 600px) {
+
   /* Saves us having to overwrite for mobile */
   .site-navigation {
     padding-right: 6rem;
     position: relative;
     width: 100%;
   }
+
   .home .site-navigation .menu {
     text-align: center;
   }
+
   .site-navigation .menu>li {
     display: inline-block;
     float: none;
     padding: 1rem 0;
     position: relative;
+
     &.menu-item-has-children {
       padding-right: 1.5rem;
+
       &:after {
         background: url('https://2017.jacksonville.wordcamp.org/files/2017/01/children-arrow.png') no-repeat center;
         background-size: auto 100%;
@@ -196,9 +211,11 @@ body:not(.home) {
       }
     }
   }
+
   .home .site-navigation .menu>li.menu-item-has-children:after {
     background-image: url('https://2017.jacksonville.wordcamp.org/files/2017/01/children-arrow-white.png');
   }
+
   .site-navigation .menu>li>a {
     color: rgba(51, 51, 51, 1);
     font-family: 'freight-sans-pro', Roboto, sans-serif;
@@ -208,6 +225,7 @@ body:not(.home) {
     text-transform: uppercase;
     letter-spacing: .2rem;
   }
+
   .home .site-navigation .menu>li>a {
     color: rgba(255, 255, 255, 1);
     font-size: 1.6rem;
@@ -215,16 +233,20 @@ body:not(.home) {
     letter-spacing: .2rem;
     text-transform: uppercase;
   }
+
   .header .site-navigation a:hover {
     color: rgba(255, 255, 255, 1);
     text-decoration: underline;
   }
+
   .home .site-navigation .menu>li>a {
     text-shadow: 0 0.1rem 0 rgba(0, 0, 0, 0.1);
   }
+
   .site-navigation .menu>li+li {
     margin: 0 0 0 1.5rem;
   }
+
   body {
     .site-navigation {
       ul ul {
@@ -236,6 +258,7 @@ body:not(.home) {
         left: calc(50% - 10rem);
         top: 100%;
         width: 20rem;
+
         &:before {
           border: .6rem solid transparent;
           border-bottom-color: rgba(17, 17, 17, 1);
@@ -245,6 +268,7 @@ body:not(.home) {
           left: calc(50% - 0.6rem);
           bottom: calc(100%);
         }
+
         a {
           color: rgba(255, 255, 255, 1);
           display: block;
@@ -257,12 +281,14 @@ body:not(.home) {
           text-align: left;
         }
       }
+
       .twitter-link {
         display: block;
         padding: 0;
         position: absolute;
         right: 0;
         top: calc(50% - 1.2rem);
+
         a {
           background: url('https://2017.jacksonville.wordcamp.org/files/2017/01/bird-black.png') no-repeat center;
           background-size: auto 100%;
@@ -271,12 +297,14 @@ body:not(.home) {
           opacity: .5;
           text-indent: -99999rem;
           width: 3.2rem;
+
           &:hover {
             opacity: 1;
           }
         }
       }
     }
+
     &.home .site-navigation .twitter-link {
       display: none;
     }
@@ -291,6 +319,7 @@ body:not(.home) {
     padding: 8rem 0;
     width: 100%;
   }
+
   .inner {
     margin: 0 auto;
     max-width: 90%;
@@ -314,6 +343,7 @@ body:not(.home) {
   min-height: 55rem;
   overflow: hidden;
   position: relative;
+
   &:before {
     background-image: linear-gradient(31deg, #2082D0 0%, #F7CC39 100%);
     content: "";
@@ -326,27 +356,32 @@ body:not(.home) {
     top: 0;
     min-height: 55rem;
   }
+
   .inner {
     color: rgba(255, 255, 255, 1);
     position: relative;
     text-align: center;
     text-shadow: 0 0.1rem 0 rgba(0, 0, 0, 0.1);
   }
+
   img {
     display: inline-block;
     margin-bottom: 2rem;
     width: 460px;
   }
+
   h1 {
     font-size: 6.4rem;
     line-height: 1;
     margin-bottom: 2rem;
     font-family: 'Philosopher', serif;
     font-weight: 400;
+
     span {
       font-style: italic;
     }
   }
+
   .intro-arrow {
     background: url('https://2017.jacksonville.wordcamp.org/files/2017/01/intro-arrow.png') no-repeat center;
     background-size: 3.2rem auto;
@@ -356,6 +391,7 @@ body:not(.home) {
     position: absolute;
     bottom: 6.1rem;
     left: calc(50% - 3.2rem);
+
     &:hover {
       bottom: 5.8rem;
     }
@@ -370,6 +406,7 @@ body:not(.home) {
     width: 102rem;
     text-align: center;
   }
+
   p {
     &:first-child {
       font-size: 4.8rem;
@@ -377,6 +414,7 @@ body:not(.home) {
       line-height: 1.25;
       margin-bottom: 3.5rem;
     }
+
     &:last-child {
       margin-bottom: 0;
     }
@@ -418,12 +456,15 @@ body a.shortcut {
   padding: 2rem;
   position: relative;
   width: 33.33%;
+
   &:nth-child(1) {
     background-image: url('https://2017.jacksonville.wordcamp.org/files/2017/01/homefeature5.jpg');
   }
+
   &:nth-child(2) {
     background-image: url('https://2017.jacksonville.wordcamp.org/files/2017/01/homefeature4.jpg');
   }
+
   &:nth-child(3) {
     background-image: url('https://2017.jacksonville.wordcamp.org/files/2017/01/homefeature3.jpg');
   }
@@ -440,12 +481,15 @@ body a.shortcut {
     right: 0;
     top: 0;
   }
+
   * {
     position: relative;
     margin: 0;
   }
+
   &:hover {
     color: rgba(255, 255, 255, 1);
+
     &:before {
       background: rgba(0, 0, 0, 0.75);
     }
@@ -466,25 +510,31 @@ body a.shortcut {
   .site-content {
     padding: 8rem 0 0;
   }
+
   #content {
     background: rgba(34, 34, 34, 1);
     color: rgba(255, 255, 255, 1);
     min-height: 50rem;
     padding: 8rem 6rem 8rem 50%;
     position: relative;
+
     article:not(:first-child) {
       margin-left: 6rem;
     }
   }
+
   article {
+
     .entry-content,
     .byline,
     .entry-content+.entry-meta {
       display: none;
     }
+
     a {
       color: rgba(255, 255, 255, 1);
     }
+
     .entry-meta {
       color: rgba(153, 153, 153, 1);
       font-family: 'freight-sans-pro', Roboto, sans-serif;
@@ -495,6 +545,7 @@ body a.shortcut {
       text-transform: uppercase;
       color: rgba(0, 0, 0, 0);
       position: relative;
+
       a {
         color: rgba(153, 153, 153, 1);
         opacity: 1;
@@ -502,21 +553,26 @@ body a.shortcut {
         left: 0;
       }
     }
+
     &:not(:first-child) {
       border-top: 0.1rem solid rgba(60, 60, 60, 1);
       padding-top: 1.5rem;
+
       +article {
         margin-top: 3rem;
       }
+
       header {
         padding-left: 17rem;
         position: relative;
       }
+
       h1 {
         font-size: 2.8rem;
         font-weight: 700;
         line-height: 1.25;
       }
+
       header .entry-meta {
         position: absolute;
         left: 0;
@@ -524,6 +580,7 @@ body a.shortcut {
         width: 17rem;
       }
     }
+
     &:first-child {
       background: rgba(51, 51, 51, 1);
       display: flex;
@@ -536,19 +593,23 @@ body a.shortcut {
       left: 0;
       top: 0;
       width: 50%;
+
       .entry-header {
         position: relative;
         z-index: 10;
       }
+
       .entry-title {
         font-size: 4.8rem;
         font-weight: 700;
         line-height: 1.1;
       }
+
       .entry-meta {
         font-size: 1.8rem;
         font-weight: 400;
       }
+
       .entry-content {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -560,6 +621,7 @@ body a.shortcut {
         right: 0;
         top: 0;
         z-index: 5;
+
         &:after {
           background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
           content: "";
@@ -570,9 +632,11 @@ body a.shortcut {
           right: 0;
           top: 0;
         }
+
         * {
           display: none;
         }
+
         > {
           img:first-child {
             display: block;
@@ -583,6 +647,7 @@ body a.shortcut {
             object-fit: cover;
             width: 100%;
           }
+
           div:first-child {
             display: block;
             height: 100%;
@@ -591,6 +656,7 @@ body a.shortcut {
             max-width: none;
             object-fit: cover;
             width: 100%;
+
             >img:first-child {
               display: block;
               height: 100%;
@@ -605,6 +671,7 @@ body a.shortcut {
       }
     }
   }
+
   #content nav {
     display: none;
   }
@@ -677,15 +744,19 @@ body .wcb_widget_sponsors {
     max-height: 18rem;
     width: calc(50% - 4rem);
   }
+
   .partner .sponsor-logo {
     width: calc(33% - 4rem);
   }
+
   .patron .sponsor-logo {
     width: calc(25% - 4rem);
   }
+
   .friend .sponsor-logo {
     width: calc(20% - 4rem);
   }
+
   .micro .sponsor-logo {
     width: calc(15% - 4rem);
   }
@@ -722,6 +793,7 @@ body:not(.home) #primary {
 body:not(.home) #primary {
   .entry-header {
     margin-bottom: 5rem;
+
     h1 {
       font-size: 4.8rem;
       font-weight: 300;
@@ -729,6 +801,7 @@ body:not(.home) #primary {
       margin: 0;
       text-align: center;
     }
+
     .entry-meta {
       color: rgba(102, 102, 102, 1);
       font-size: 2rem;
@@ -736,11 +809,13 @@ body:not(.home) #primary {
       font-family: 'Catamaran', sans-serif;
       margin: 1rem 0 0;
       text-align: center;
+
       a {
         color: rgba(102, 102, 102, 1);
       }
     }
   }
+
   .entry-content p.intro-text {
     font-size: 1.2em;
     font-family: 'freight-sans-pro', Roboto, sans-serif;
@@ -748,22 +823,26 @@ body:not(.home) #primary {
     font-weight: 700;
     line-height: 1.38;
   }
+
   footer.entry-meta {
     font-family: 'freight-sans-pro', Roboto, sans-serif;
     font-family: 'Catamaran', sans-serif;
     font-size: 1.4rem;
     margin-top: 5rem;
   }
+
   #content .post-navigation {
     border-bottom: 0.1rem solid rgba(221, 221, 221, 1);
     border-top: 0.1rem solid rgba(221, 221, 221, 1);
     font-family: 'freight-sans-pro', Roboto, sans-serif;
     font-family: 'Catamaran', sans-serif;
     padding: 2rem 0;
+
     a {
       display: block;
       font-size: 1.8rem;
       line-height: 1.2;
+
       &:hover {
         color: rgba(34, 132, 210, 1);
         text-decoration: underline;
@@ -779,18 +858,22 @@ body:not(.home) #primary {
   font-family: 'Catamaran', sans-serif;
   font-weight: 300;
   font-size: 2rem;
+
   &:after {
     clear: both;
     content: "";
     display: block;
   }
+
   p,
   li {
     line-height: 1.5;
   }
+
   p {
     margin-bottom: 2rem;
   }
+
   h1,
   h2,
   h3,
@@ -804,25 +887,32 @@ body:not(.home) #primary {
     text-align: left;
     margin: 1.5rem 0 1rem;
   }
+
   h1 {
     font-size: 4.6rem;
   }
+
   h2 {
     font-size: 4rem;
   }
+
   h3 {
     font-size: 3.4rem;
     margin: 3rem 0;
   }
+
   h4 {
     font-size: 2.8rem;
   }
+
   h5 {
     font-size: 2.2rem;
   }
+
   h6 {
     font-size: 2rem;
   }
+
   .wp-caption {
     border: none;
   }
@@ -841,33 +931,42 @@ body:not(.home) #primary {
 
 .entry-content {
   > {
+
     ol,
     ul {
       margin-bottom: 3.3rem;
     }
   }
+
   ol {
     margin-left: 3rem;
   }
+
   ul {
     margin-left: 3rem;
     list-style: disc;
+
     ul {
       list-style: circle;
+
       ul {
         list-style: square;
       }
     }
   }
+
   ol {
     list-style: decimal;
+
     ol {
       list-style: lower-alpha;
+
       ol {
         list-style: lower-roman;
       }
     }
   }
+
   table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -880,10 +979,12 @@ body:not(.home) #primary {
     overflow: hidden;
     width: 100%;
   }
+
   thead+tbody,
   tr+tr {
     border-top: 0.1rem solid rgba(221, 221, 221, 1);
   }
+
   th,
   td {
     line-height: 1.4;
@@ -891,6 +992,7 @@ body:not(.home) #primary {
     overflow: visible;
     padding: 2.5%;
   }
+
   caption {
     font-size: 1.3rem;
     font-weight: 700;
@@ -898,10 +1000,12 @@ body:not(.home) #primary {
     text-align: center;
     text-transform: uppercase;
   }
+
   thead {
     vertical-align: bottom;
     white-space: nowrap;
   }
+
   th {
     font-weight: 700;
   }
@@ -909,7 +1013,7 @@ body:not(.home) #primary {
 
 /* Tables */
 
-tbody > tr:nth-child(even) {
+tbody>tr:nth-child(even) {
   background-color: rgba(246, 246, 246, 1);
 }
 
@@ -922,7 +1026,9 @@ body {
     font-weight: 700;
     text-transform: uppercase;
   }
+
   input {
+
     &[type="email"],
     &[type="password"],
     &[type="tel"],
@@ -952,11 +1058,14 @@ body {
     font-weight: 700;
     text-transform: uppercase;
   }
+
   textarea {
     padding: 1rem;
     text-transform: none;
   }
+
   input {
+
     &[type="email"],
     &[type="password"],
     &[type="tel"],
@@ -974,14 +1083,17 @@ form.wcorg-mailchimp {
   label {
     display: none !important;
   }
+
   input {
     &#wcorg-mailchimp-name {
       display: none !important;
     }
+
     &[type="submit"] {
       display: inline-block !important;
     }
   }
+
   text-align: center;
 }
 
@@ -999,6 +1111,7 @@ form.wcorg-mailchimp {
 
 .comment {
   margin-top: 4rem;
+
   a {
     text-decoration: underline;
   }
@@ -1007,11 +1120,13 @@ form.wcorg-mailchimp {
 .commentlist {
   list-style: none;
   margin: 0;
+
   .comment,
   ul.children {
     list-style: none;
     margin: 0;
   }
+
   >.comment:first-child {
     margin-top: 0;
   }
@@ -1040,6 +1155,7 @@ li.comment li.comment {
   .says {
     display: none;
   }
+
   .avatar {
     border-radius: 9999rem;
     position: absolute;
@@ -1047,6 +1163,7 @@ li.comment li.comment {
     top: .1rem;
     width: 4rem;
   }
+
   cite {
     display: block;
     font-size: 1.8rem;
@@ -1068,8 +1185,10 @@ li.comment li.comment {
   font-size: 1.6rem;
   margin: .2rem 0 2rem;
   padding-left: 5rem;
+
   a {
     color: #999;
+
     &:hover {
       color: #999;
     }
@@ -1082,8 +1201,10 @@ li.comment li.comment {
   font-size: 1.4rem;
   margin-top: 1.5rem;
   text-align: right;
+
   a {
     color: #999;
+
     &:hover {
       text-decoration: underline;
     }
@@ -1095,6 +1216,7 @@ li.comment li.comment {
   font-family: 'Catamaran', sans-serif;
   font-weight: 300;
   font-size: 2rem;
+
   h1,
   h2,
   h3,
@@ -1109,6 +1231,7 @@ li.comment li.comment {
     font-style: initial;
     margin: 2rem 0 1rem;
   }
+
   &:last-child {
     margin-bottom: 0;
   }
@@ -1116,7 +1239,7 @@ li.comment li.comment {
 
 /* Respond */
 
-.commentlist + .comment-respond {
+.commentlist+.comment-respond {
   margin-top: 4rem;
 }
 
@@ -1132,22 +1255,27 @@ li.comment li.comment {
   flex-wrap: wrap;
   font-family: 'freight-sans-pro', Roboto, sans-serif;
   font-family: 'Catamaran', sans-serif;
+
   input {
+
     &[type="text"],
     &[type="email"],
     &[type="url"] {
       width: 100%;
     }
   }
+
   textarea,
   >* {
     width: 100%;
   }
+
   .comment-form-author,
   .comment-form-email,
   .comment-form-url {
     width: calc(33.33% - 1.33rem);
   }
+
   .comment-form-email,
   .comment-form-url {
     margin-left: 2rem;
@@ -1197,11 +1325,13 @@ li.comment li.comment {
   padding-top: 9.5rem;
   position: relative;
   text-align: center;
+
   img {
     border-radius: 99rem;
     position: absolute;
     left: calc(50% - 4rem);
     top: 0;
+
     &:not(:hover) {
       width: 8rem;
     }
@@ -1215,6 +1345,7 @@ li.comment li.comment {
     margin: 0;
     text-align: center;
   }
+
   h3 {
     font-size: 2rem;
     line-height: 1.1;
@@ -1250,6 +1381,7 @@ li.comment li.comment {
   margin: 0 auto;
   max-width: 90%;
   width: 124rem;
+
   &:after {
     content: "";
     clear: both;
@@ -1287,10 +1419,12 @@ li.comment li.comment {
     &:nth-child(1) {
       background-image: linear-gradient(-135deg, #549CF9 0%, #096DAE 100%);
     }
+
     &:nth-child(2) {
       background-image: linear-gradient(-225deg, #FAD24E 0%, #E9B700 100%);
     }
   }
+
   a {
     color: rgba(255, 255, 255, 1);
   }
@@ -1316,6 +1450,7 @@ li.comment li.comment {
 .site-info {
   padding: 4.1rem 0;
   text-align: center;
+
   .site-info-generator {
     color: rgba(255, 255, 255, 1);
     font-family: 'freight-sans-pro', Roboto, sans-serif;
@@ -1325,6 +1460,7 @@ li.comment li.comment {
     letter-spacing: .2rem;
     text-transform: uppercase;
   }
+
   .site-info-network {
     display: none;
   }
@@ -1353,6 +1489,7 @@ body .site-navigation .twitter-link a {
 @media (max-width: 900px) and (min-width: 600px) {
   .site-navigation {
     padding-right: 0;
+
     .menu>li+li {
       margin-left: 3rem;
     }
@@ -1360,7 +1497,7 @@ body .site-navigation .twitter-link a {
 }
 
 @media (max-width: 900px) {
-  
+
   /* Site header */
   .site-header h1.site-title a {
     height: 5rem;
@@ -1383,9 +1520,11 @@ body .site-navigation .twitter-link a {
     height: 25rem;
     margin: 0;
     width: 100%;
+
     &:first-child {
       margin-top: -4rem;
     }
+
     &:last-child {
       margin-bottom: -4rem;
     }
@@ -1398,9 +1537,11 @@ body .site-navigation .twitter-link a {
         left: calc(50% - 4rem);
         width: 8rem;
       }
+
       h2 {
         font-size: 2.2rem;
       }
+
       h3 {
         font-size: 1.8rem;
       }
@@ -1413,6 +1554,7 @@ body .site-navigation .twitter-link a {
       min-height: none;
       padding: 0 5% 10%;
     }
+
     article:first-child {
       height: 40rem;
       margin-bottom: 10%;
@@ -1424,6 +1566,7 @@ body .site-navigation .twitter-link a {
       top: auto;
       width: 100vw;
     }
+
     #content article:not(:first-child) {
       margin-left: 0;
     }
@@ -1433,12 +1576,14 @@ body .site-navigation .twitter-link a {
   .sponsor-level {
     padding-left: 0;
   }
+
   .sponsor-level-title {
     font-size: 2.4rem;
     margin-bottom: 1.5rem;
     position: static;
     width: 100%;
   }
+
   body .wcb_widget_sponsors .sponsor-logo {
     margin: 0 2rem 2rem 0;
   }
@@ -1453,20 +1598,24 @@ body .site-navigation .twitter-link a {
 }
 
 @media (max-width: 600px) {
-  
+
   /* Typography */
   body {
+
     h2,
     h3 {
       font-size: 2.8rem;
     }
   }
+
   .subtitle {
     font-size: 2.2rem;
   }
+
   .smallcaps {
     font-size: 1.4rem;
     letter-spacing: .1rem;
+
     &.seperated:after {
       margin: 1rem auto .9rem;
       width: 4rem;
@@ -1477,11 +1626,14 @@ body .site-navigation .twitter-link a {
   .site-header {
     margin-bottom: 3rem;
     padding: 1.2rem 0;
+
     hgroup {
       width: 100%;
     }
+
     h1.site-title {
       text-align: center;
+
       a {
         display: inline-block;
         height: 7rem;
@@ -1499,7 +1651,8 @@ body .site-navigation .twitter-link a {
     z-index: 50;
     width: 4.8rem;
     width: 100%;
-    > h1 {
+
+    >h1 {
       background: url('https://2017.jacksonville.wordcamp.org/files/2017/01/hamburger.png') no-repeat center;
       background-size: 100% auto;
       clip: auto !important;
@@ -1516,12 +1669,12 @@ body .site-navigation .twitter-link a {
     }
   }
 
-  body:not(.home) header nav.site-navigation > h1 {
+  body:not(.home) header nav.site-navigation>h1 {
     background-image: url('https://2017.jacksonville.wordcamp.org/files/2017/01/hamburger-black.png');
   }
 
   header nav.site-navigation>h1.toggled-on,
-  body:not(.home) header nav.site-navigation > h1.toggled-on {
+  body:not(.home) header nav.site-navigation>h1.toggled-on {
     background-image: url('https://2017.jacksonville.wordcamp.org/files/2017/01/hamburger-close.png');
     height: 2.4rem;
     width: 2.4rem;
@@ -1538,12 +1691,14 @@ body .site-navigation .twitter-link a {
         z-index: 10;
         padding: 0;
       }
+
       h1.toggled-on~div:last-child {
         display: block;
         left: 0;
         padding: 2rem 5%;
       }
     }
+
     ul,
     li {
       display: block;
@@ -1552,13 +1707,16 @@ body .site-navigation .twitter-link a {
       position: static;
       width: 100%;
     }
+
     .menu {
       li {
         margin-top: 1.25rem;
       }
-      > li:first-child {
+
+      >li:first-child {
         margin-top: 0;
       }
+
       a {
         color: rgba(255, 255, 255, 1);
         display: block;
@@ -1567,11 +1725,14 @@ body .site-navigation .twitter-link a {
         line-height: 1.1;
         text-decoration: none;
       }
+
       .current_page_item>a {
         color: rgba(255, 255, 255, 0.5);
       }
+
       .sub-menu {
         margin-left: 2.5rem;
+
         a {
           font-style: italic;
           font-size: 2rem;
@@ -1589,17 +1750,21 @@ body .site-navigation .twitter-link a {
   /* Hero */
   .hero {
     min-height: initial;
+
     img {
       margin-bottom: 1rem;
       width: auto;
     }
+
     h1 {
       font-size: 4rem;
       margin-bottom: 1rem;
     }
+
     .intro-arrow {
       background-size: 2.4rem auto;
       bottom: 4rem;
+
       &:hover {
         bottom: 3.7rem;
       }
@@ -1634,18 +1799,23 @@ body .site-navigation .twitter-link a {
     .site-content {
       padding-top: 2rem;
     }
+
     article {
       &:first-child {
         height: 25rem;
+
         .entry-title {
           font-size: 3.2rem;
         }
+
         .entry-meta {
           font-size: 1.4rem;
         }
       }
+
       &:not(:first-child) header {
         padding: 0;
+
         .entry-meta {
           margin-top: .3rem;
           position: relative;
@@ -1660,6 +1830,7 @@ body .site-navigation .twitter-link a {
   /* Sponsors */
   .sponsor-level {
     padding-top: 1.2rem;
+
     +.sponsor-level {
       margin-top: 3rem;
     }
@@ -1670,24 +1841,30 @@ body .site-navigation .twitter-link a {
       .sponsor-logo {
         width: calc(50% - 2rem);
       }
+
       .partner .sponsor-logo {
         width: calc(33.33% - 2rem);
       }
+
       .patron .sponsor-logo {
         width: calc(25% - 2rem);
       }
     }
+
     &:not(.home) #primary {
       .entry-header {
         margin-bottom: 3rem;
+
         h1 {
           font-size: 3.2rem;
         }
+
         .entry-meta {
           font-size: 1.6rem;
           margin-top: .5rem;
         }
       }
+
       #content .post-navigation a {
         font-size: 1.6rem;
       }
@@ -1697,9 +1874,11 @@ body .site-navigation .twitter-link a {
   /* Single */
   .entry-content {
     font-size: 1.7rem;
+
     p {
       margin-bottom: 1.5rem;
     }
+
     h1,
     h2,
     h3,
@@ -1708,27 +1887,33 @@ body .site-navigation .twitter-link a {
     h6 {
       margin: 3rem 0 1rem;
     }
+
     h1 {
       font-size: 3.2rem;
     }
+
     h2 {
       font-size: 2.8rem;
     }
+
     h3 {
       font-size: 2.4rem;
     }
+
     h4 {
       font-size: 2.2rem;
     }
+
     h5 {
       font-size: 2rem;
     }
+
     h6 {
       font-size: 1.8rem;
     }
   }
-  
-  body:not(.home) #primary .entry-content > p:first-child > img:first-child {
+
+  body:not(.home) #primary .entry-content>p:first-child>img:first-child {
     margin-bottom: 0;
   }
 
@@ -1766,6 +1951,7 @@ body .site-navigation .twitter-link a {
   /* Credits */
   .site-info {
     padding: 2.2rem 0;
+
     .site-info-generator {
       font-size: 1.4rem;
     }
@@ -1781,6 +1967,7 @@ body .site-navigation .twitter-link a {
     &:before {
       height: 76.8rem;
     }
+
     height: 76.8rem;
   }
 }
@@ -1790,6 +1977,7 @@ body .site-navigation .twitter-link a {
     &:before {
       height: 102.4rem;
     }
+
     height: 102.4rem;
   }
 }
@@ -1801,6 +1989,7 @@ body .site-navigation .twitter-link a {
     &:before {
       height: 32rem;
     }
+
     height: 32rem;
   }
 }
@@ -1810,6 +1999,7 @@ body .site-navigation .twitter-link a {
     &:before {
       height: 56.8rem;
     }
+
     height: 56.8rem;
   }
 }
@@ -1821,6 +2011,7 @@ body .site-navigation .twitter-link a {
     &:before {
       height: 32rem;
     }
+
     height: 32rem;
   }
 }
@@ -1830,6 +2021,7 @@ body .site-navigation .twitter-link a {
     &:before {
       height: 48rem;
     }
+
     height: 48rem;
   }
 }
@@ -1877,12 +2069,14 @@ body a.cta-button {
     text-decoration: none;
     display: block;
   }
-  > a {
+
+  >a {
     padding: 12px 0;
   }
 }
 
 body a.cta-button {
+
   &:hover,
   &:focus {
     background-color: #66bcff;
@@ -1893,6 +2087,7 @@ body a.cta-button {
 }
 
 .site-navigation .menu>li.menu-item.cta-button a {
+
   &:hover,
   &:focus {
     background-color: #66bcff;
@@ -1910,6 +2105,7 @@ body a.cta-button:active {
 
 .wcorg-speaker-description>p>a>span {
   font-size: 0;
+
   &:after {
     content: "Read more";
     font-size: 12px;
@@ -1934,6 +2130,7 @@ body.category .entry-title a {
   &:before {
     background-image: linear-gradient(10deg, #E9B700 15%, #2082D0 50%);
   }
+
   h1 {
     text-shadow: rgba(52, 48, 99, 0.7) 1px 1px 7px;
   }
@@ -1948,7 +2145,7 @@ body.category .entry-title a {
 .wcorg-speaker-description img.avatar {
   display: block;
 }
- 
+
 /* Schedule */
 
 .wcpt-schedule thead {
@@ -1981,6 +2178,7 @@ body.category .entry-title a {
 }
 
 .contact-form label {
+
   &.checkbox,
   &.radio {
     font-weight: 300;
@@ -1995,13 +2193,14 @@ body.page-slug-schedule #primary {
 /* Sponsors */
 
 .wcorg-sponsors {
-  & > div {
+  &>div {
     h2 {
       position: relative;
       text-align: center;
       text-transform: uppercase;
       display: flex;
       font-size: 4rem;
+
       &:before,
       &:after {
         content: '';
@@ -2012,16 +2211,19 @@ body.page-slug-schedule #primary {
         margin: 28px 20px 20px;
       }
     }
+
     .wcorg-sponsor {
       max-width: 800px;
       margin: 0 auto;
       padding: 40px;
       background: #eae4e3;
+
       h3 {
         display: flex;
         align-items: center;
         margin-top: 0;
         margin-bottom: 60px;
+
         &:after {
           content: '';
           flex: 1 0 auto;
@@ -2030,8 +2232,10 @@ body.page-slug-schedule #primary {
           margin-left: 20px;
         }
       }
+
       .wcorg-sponsor-description {
         position: relative;
+
         .wp-post-image {
           position: absolute;
           right: 0;
@@ -2040,97 +2244,121 @@ body.page-slug-schedule #primary {
         }
       }
     }
+
     &:nth-child(1) {
       h2 {
         background-color: #722247;
         color: #ffffff;
+
         &:before,
         &:after {
           background: #ffffff;
         }
       }
+
       h3 {
         color: #722247;
+
         &:after {
           background-color: #722247;
         }
       }
     }
+
     &:nth-child(2) {
       h2 {
         background-color: #bf6347;
         color: #ffffff;
+
         &:before,
         &:after {
           background: #ffffff;
         }
       }
+
       h3 {
         color: #bf6347;
+
         &:after {
           background-color: #bf6347;
         }
       }
     }
+
     &:nth-child(3) {
       h2 {
         background-color: #f68c36;
         color: #ffffff;
+
         &:before,
         &:after {
           background: #ffffff;
         }
       }
+
       h3 {
         color: #f68c36;
+
         &:after {
           background-color: #f68c36;
         }
       }
     }
+
     &:nth-child(3) {
       h2 {
         background-color: #f68c36;
         color: #ffffff;
+
         &:before,
         &:after {
           background: #ffffff;
         }
       }
+
       h3 {
         color: #f68c36;
+
         &:after {
           background-color: #f68c36;
         }
       }
     }
+
     &:nth-child(4) {
       h2 {
         background-color: #8d3d46;
         color: #ffffff;
+
         &:before,
         &:after {
           background: #ffffff;
         }
       }
+
       h3 {
         color: #8d3d46;
+
         &:after {
           background-color: #8d3d46;
         }
       }
     }
+
     &:nth-child(5) {
       h2 {
         background-color: #10193f;
         color: #ffffff;
+
         &:before,
         &:after {
           background: #ffffff;
         }
       }
+
       h3 {
         color: #10193f;
+
         &:after {
           background-color: #10193f;
         }
