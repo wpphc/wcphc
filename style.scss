@@ -175,7 +175,7 @@ body:not(.home) {
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 601px) {
 
   /* Saves us having to overwrite for mobile */
   .site-navigation {
@@ -1486,7 +1486,7 @@ body .site-navigation .twitter-link a {
 
 /* Responsiveness */
 
-@media (max-width: 900px) and (min-width: 600px) {
+@media (max-width: 900px) and (min-width: 601px) {
   .site-navigation {
     padding-right: 0;
 
@@ -2364,5 +2364,24 @@ body.page-slug-schedule #primary {
         }
       }
     }
+  }
+}
+
+@media screen and (min-width:900px) {
+
+@media screen and (min-width:900px) {
+  #tix-attendees li {
+    float: none;
+    width: 50%;
+    margin-bottom: 20px;
+    height: auto;
+    display: inline-block;
+  }
+  
+  #tix-attendees .avatar {
+    float: none;
+    width: 192px;
+    height: 192px;
+    margin-bottom: 0;
   }
 }
