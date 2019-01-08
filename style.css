@@ -247,6 +247,7 @@ body:not(.home) #main {
     line-height: 1.1;
     padding: 1rem 1.5rem;
     text-align: left;
+    width: 220px;
   }
   body .site-navigation .twitter-link {
     display: block;
