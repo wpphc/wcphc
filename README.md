@@ -7,5 +7,5 @@ This repository holds the CSS file for of the WordCamp Jakarta 2019 site.
 Run the following command within the local repository folder:
 
 ```
-sass --watch style.scss:style.css --style expanded
+sass --watch style.scss:style.css --style=expanded --sourcemap=none
 ```
