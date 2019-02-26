@@ -1,6 +1,6 @@
-# 2019.jakarta.wordcamp.org
+# WordCamp Port Harcourt
 
-This repository holds the CSS file for of the WordCamp Jakarta 2019 site.
+This repository holds the CSS file for of the WordCamp Port Harcourt 2019 site.
 
 ## Compile SCSS to CSS
 
